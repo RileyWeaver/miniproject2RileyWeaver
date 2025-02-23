@@ -34,7 +34,8 @@ Riley Weaver
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Inspiration, code snippets, datsests, etc.
 * [Kaggle](https://www.kaggle.com/datasets/arnabchaki/popular-video-games-1980-2023)
 * [matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html)
-* [Youtube]()
+* [Youtube](https://www.youtube.com/watch?v=urdd8dIV97U)
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/04_plotting.html)
