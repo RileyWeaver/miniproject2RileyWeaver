@@ -12,3 +12,12 @@ I,     Riley Weaver    , affirm that the work submitted for this assignment is e
  I acknowledge my commitment to upholding the principles of academic integrity.
 '''
 
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+
+os.makedirs("charts", exist_ok=True)
+
+games = pd.read_csv("games.csv", index_col=0)
+
+print(games.head())

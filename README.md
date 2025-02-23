@@ -1,4 +1,4 @@
-# Mini Project 1
+# Mini Project 2
 
 
 ## Description
@@ -35,6 +35,6 @@ Riley Weaver
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [yfinance](https://pypi.org/project/yfinance/)
+* [Kaggle](https://www.kaggle.com/datasets/arnabchaki/popular-video-games-1980-2023)
 * [matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html)
-* [Youtube](https://www.youtube.com/watch?v=fFss4RzSkOU)
+* [Youtube]()
