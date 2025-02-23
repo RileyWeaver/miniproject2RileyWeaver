@@ -18,6 +18,17 @@ import os
 
 os.makedirs("charts", exist_ok=True)
 
-games = pd.read_csv("games.csv", index_col=0)
+df = pd.DataFrame(
+{
+        "Title": [
+            "Elden Ring",
+            "Hades",
+            "The Legend of Zelda: Breath of the Wild",
+        ],
+        "Rating": [4.5, 4.3, 4.4],
+        "Wishlist": ["4.8k", "3.6k", "2.6k"],
+    }
+)
 
-print(games.head())
+print("Game Data:")
+print(df)
