@@ -18,17 +18,11 @@ import os
 
 os.makedirs("charts", exist_ok=True)
 
-df = pd.DataFrame(
-{
-        "Title": [
-            "Elden Ring",
-            "Hades",
-            "The Legend of Zelda: Breath of the Wild",
-        ],
-        "Rating": [4.5, 4.3, 4.4],
-        "Wishlist": ["4.8k", "3.6k", "2.6k"],
-    }
-)
+games = pd.read_csv("games.csv", index_col=0)
 
-print("Game Data:")
-print(df)
+team_counts = games['Team'].value_counts()
+
+top_teams = team_counts.head(5)
+
+print("Top 5 game companies with the most popular games up to 2023: ")
+print(top_teams)
