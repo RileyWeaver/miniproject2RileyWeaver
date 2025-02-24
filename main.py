@@ -32,19 +32,15 @@ print(top_teams)
 
 
 #Distribution of ratings
-ratings_amount = games['Rating'].value_counts()
+ratings_amount = games['Rating'].value_counts().sort_index()
 
 bins = np.arange(0, 5.0, 0.3)
 
 count = np.arange(0, 500, 50)
 
+
 print("Rating Distribution: ")
 print((ratings_amount))
-
-# For chart 3 Atlus games comparison
-
-
-
 
 
 # Chart 1: Top 3 Teams chart
@@ -57,6 +53,7 @@ plt.title('Top 3 Teams By Amount Of Games Popular')
 plt.xlabel('Teams')
 plt.xticks(rotation=0)
 plt.ylabel('Frequency')
+plt.savefig("charts/top_3_teams.png")
 
 
 # Chart 2: Distribution of ratings chart
@@ -67,10 +64,8 @@ plt.xticks(bins)
 plt.ylabel('Count')
 plt.yticks(count)
 plt.title('Distribution of Ratings Among Popular Games')
+plt.savefig('charts/rating_distribution.png')
 plt.show()
-
-# Chart 3: Atlus games comparison
-
 
 
 
