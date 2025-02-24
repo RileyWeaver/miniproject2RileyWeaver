@@ -9,7 +9,7 @@ I,     Riley Weaver    , affirm that the work submitted for this assignment is e
  including but not limited to cheating, plagiarism, or the use of unauthorized materials. I have neither provided nor received unauthorized assistance
  and have accurately cited all sources in adherence to academic standards. I understand that failing to comply with this integrity statement may result
  in consequences, including disciplinary actions as determined by my course instructor and outlined in institutional policies. By signing this statement,
- I acknowledge my commitment to upholding the principles of academic integrity.
+ I acknowledge my commitment to upholding the principles of academic integrity
 '''
 
 import pandas as pd
@@ -56,6 +56,7 @@ plt.ylabel('Frequency')
 plt.savefig("charts/top_3_teams.png")
 
 
+
 # Chart 2: Distribution of ratings chart
 plt.figure(figsize = (8,6))
 plt.hist(games['Rating'], bins=10, color='orange', edgecolor='black')
@@ -65,6 +66,5 @@ plt.ylabel('Count')
 plt.yticks(count)
 plt.title('Distribution of Ratings Among Popular Games')
 plt.savefig('charts/rating_distribution.png')
-
 
 
