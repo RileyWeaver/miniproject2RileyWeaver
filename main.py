@@ -65,7 +65,6 @@ plt.ylabel('Count')
 plt.yticks(count)
 plt.title('Distribution of Ratings Among Popular Games')
 plt.savefig('charts/rating_distribution.png')
-plt.show()
 
 
 
