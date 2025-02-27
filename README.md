@@ -10,6 +10,13 @@ popular video games and found a Kaggle dataset to use and answered my questions 
 
 ## Getting Started
 
+This is a link to the dataset used for this project 
+https://www.kaggle.com/datasets/arnabchaki/popular-video-games-1980-2023
+
+You will need to go to the top right of the site and download the zip folder and extract the dataset file as a csv.
+
+I left a additional link to this website in teh acknowledgments under Kaggle.
+
 ### Dependencies
 
 ```
