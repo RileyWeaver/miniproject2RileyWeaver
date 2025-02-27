@@ -5,7 +5,7 @@
 
 This project will be using Pandas dataframes. The goal here is to come up with some question and then see what
 API or datasets you can use to get the information needed to answer that question. I had video game questions about
-popular video games and found a Kaggle dataset to use and answered my questions within it adn through charts. 
+popular video games and found a Kaggle dataset to use and answered my questions within it and through charts. 
 
 
 ## Getting Started
